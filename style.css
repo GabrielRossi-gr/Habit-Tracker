@@ -17,6 +17,12 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 48px;
+
+
+    position: fixed;
+    background-color: black;
+    width: 100%;
+
 }
 
 button {
@@ -34,9 +40,12 @@ button {
     gap: 12px;
 }
 
-form{
+#form-habits {
+
     display: flex;
-    padding: 0 48px;
+    margin-right: 48px;
+    padding: 188px 48px 48px;
+
 }
 
 .habits{
@@ -95,4 +104,12 @@ input:checked {
     /* tailwind/violet/400 */
 
     border: 2px solid #A78BFA;
+}
+
+
+@media (max-width: 570px) { 
+    button div{
+        display: none;
+    }
+    
 }
