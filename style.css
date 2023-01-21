@@ -87,6 +87,7 @@ button {
     color: #A1A1AA;
     text-align: center;
 }
+
 input {
 
     appearance: none;
@@ -96,7 +97,6 @@ input {
     background: #18181B;
     border: 2px solid #27272A;
     border-radius: 8px;
-
 }
 
 input:checked {
